@@ -17,11 +17,22 @@ p{
     margin: 0;
 }
 
-.icom{
+.icon{
     height: 2rem;
     width: 2rem;
     margin: 0 0.5rem;
 }
 #hero{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
 
+#hero__animation{
+    animation-name: hover;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
