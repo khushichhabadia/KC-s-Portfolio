@@ -1,5 +1,8 @@
 /* Light Mode */
 :root{
     --bg: #fff;
+
+/* Face Animation */
+--tl-1: url(../assests/face-animation-light/tl-1.png);
 }
 
