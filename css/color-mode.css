@@ -1,8 +1,60 @@
 /* Light Mode */
 :root{
     --bg: #fff;
+    --bg-alt: #333;
+    --bg-alt-2: #f0f0f0;
+    --bg-transparent: #ffffff;
+    --border: 0.01rem solid #333;
+    --text:#333;
+    --text-alt: #fff;
 
 /* Face Animation */
+/* LEFT */
 --tl-1: url(../assests/face-animation-light/tl-1.png);
+--tl-2: url(../assests/face-animation-light/tl-2.png);
+--tl-3: url(../assests/face-animation-light/tl-3.png);
+--tl-4: url(../assests/face-animation-light/tl-4.png);
+--tl-5: url(../assests/face-animation-light/.t5png);
+
+/* RIGHT */
+--tr-1: url(../assests/face-animation-light/tr-1.png);
+--tr-2: url(../assests/face-animation-light/tr-2.png);
+--tr-3: url(../assests/face-animation-light/tr-3.png);
+--tr-4: url(../assests/face-animation-light/tr-4.png);
+--tr-5: url(../assests/face-animation-light/.trpng);
+
+--bl-1: url(../assests/face-animation-light/bl-1.png);
+--bl-2: url(../assests/face-animation-light/bl-2.png);
+--bl-3: url(../assests/face-animation-light/bl-3.png);
+--bl-4: url(../assests/face-animation-light/bl-4.png);
+--bl-5: url(../assests/face-animation-light/.blpng);
+
+--br-1: url(../assests/face-animation-light/br-1.png);
+--tr-2: url(../assests/face-animation-light/br-2.png);
+--br-3: url(../assests/face-animation-light/br-3.png);
+--br-4: url(../assests/face-animation-light/br-4.png);
+--br-5: url(../assests/face-animation-light/.brpng);
+
+--sun: url(assets\icons\sun.png)
+}
+/* color mode toggle button */
+#color-mode{
+    /* background-color: var(--bg-alt-2); */
+    height: 2.75rem;
+    width: 5rem;
+    border-radius: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: lightcoral;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50% ,-50%);
 }
 
+#toggle-button{
+    background-image: var(--sun);
+    background-size: cover;
+    cursor: pointer;   
+}
