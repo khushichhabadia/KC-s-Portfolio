@@ -35,7 +35,7 @@
 --br-4: url(../assests/face-animation-light/br-4.png);
 --br-5: url(../assests/face-animation-light/.brpng);
 
---sun: url(assets\icons\sun.png)
+--sun: url(../assests/icons/sun.png);
 }
 /* color mode toggle button */
 #color-mode{
