@@ -49,44 +49,43 @@
 
 /* Face Animation */
 /* LEFT */
---tl-1: url(../assests/face-animation-dark/tl-1.png);
---tl-2: url(../assests/face-animation-dark/tl-2.png);
---tl-3: url(../assests/face-animation-dark/tl-3.png);
---tl-4: url(../assests/face-animation-dark/tl-4.png);
---tl-5: url(../assests/face-animation-dark/tl-5.png);
+--tl-1: url(../assests/face-animation-dark/tlw-1.png);
+--tl-2: url(../assests/face-animation-dark/tlw-2.png);
+--tl-3: url(../assests/face-animation-dark/tlw-3.png);
+--tl-4: url(../assests/face-animation-dark/tlw-4.png);
+--tl-5: url(../assests/face-animation-dark/tlw-5.png);
 
-/* RIGHT */
---tr-1: url(../assests/face-animation-dark/t/tr-1.png);
---tr-2: url(../assests/face-animation-dark/tr-2.png);
---tr-3: url(../assests/face-animation-dark/tr-3.png);
---tr-4: url(../assests/face-animation-dark/tr-4.png);
---tr-5: url(../assests/face-animation-dark/tr-5p.ng);
+/* wRIGHT */
+--tr-1: url(../assests/face-animation-dark/t/wtr-1.png);
+--tr-2: url(../assests/face-animation-dark/trw-2.png);
+--tr-3: url(../assests/face-animation-dark/trw-3.png);
+--tr-4: url(../assests/face-animation-dark/trw-4.png);
+--tr-5: url(../assests/face-animation-dark/trw-5p.ng);
 
---bl-1: url(../assests/face-animation-dark/bl-1.png);
---bl-2: url(../assests/face-animation-dark/bl-2.png);
---bl-3: url(../assests/face-animation-dark/bl-3.png);
---bl-4: url(../assests/face-animation-dark/bl-4.png);
---bl-5: url(../assests/face-animation-dark/bl-5.png);
+--bl-1: url(../assests/face-animation-dark/blw-1.png);
+--bl-2: url(../assests/face-animation-dark/blw-2.png);
+--bl-3: url(../assests/face-animation-dark/blw-3.png);
+--bl-4: url(../assests/face-animation-dark/blw-4.png);
+--bl-5: url(../assests/face-animation-dark/blw-5.png);
 
---br-1: url(../assests/face-animation-dark/br-1.png);
---tr-2: url(../assests/face-animation-dark/br-2.png);
---br-3: url(../assests/face-animation-dark/br-3.png);
---br-4: url(../assests/face-animation-dark/br-4.png);
---br-5: url(../assests/face-animation-dark/bl-5.rpng);
+--br-1: url(../assests/face-animation-dark/brw-1.png);
+--tr-2: url(../assests/face-animation-dark/brw-2.png);
+--br-3: url(../assests/face-animation-dark/brw-3.png);
+--br-4: url(../assests/face-animation-dark/brw-4.png);
+--br-5: url(../assests/face-animation-dark/blw-5.rpng);
 
---sun: url(../assests/icons/sun.png);
+--moon: url(../assests/icons/moon.png);
 }
 
 
 /* color mode toggle button */
 #color-mode{
-    /* background-color: var(--bg-alt-2); */
+    background-color: var(--bg-alt-2);
     height: 2.75rem;
     width: 5rem;
     border-radius: 3rem;
     display: flex;
     align-items: center;
-    background-color: lightcoral;
     justify-content: flex-start;
     position: absolute;
     bottom: 0;
@@ -98,4 +97,12 @@
     background-image: var(--sun);
     background-size: cover;
     cursor: pointer;   
+}
+
+.dark-mode #toggle-button {
+    background-image: var(--moon);
+}
+
+.dark-mode #toggle-button {
+  justify-content: flex-end;
 }
